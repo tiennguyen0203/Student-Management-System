@@ -17,4 +17,7 @@ public abstract class Student {
 	public abstract void registerSub(Subject sub);
 	public abstract boolean graduateCondition();
 	public abstract List<Subject> checkCompletedSub();
+	public abstract String getStudentID();
+	public abstract List<Subject> getSubList();
+	public abstract String getStudentName();
 }

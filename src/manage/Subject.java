@@ -34,4 +34,17 @@ public class Subject {
 	public short getNumberCredit() {
 		return numberCredit;
 	}
+	
+	public String getSubjectID() {
+		return this.subjectID;
+	}
+	
+	public void setMidtermGrade(float point) {
+		this.midtermGrade = point;
+	}
+	
+	public void setLasttermGrade(float point) {
+		this.lasttermGrade = point;
+	}
+	
 }

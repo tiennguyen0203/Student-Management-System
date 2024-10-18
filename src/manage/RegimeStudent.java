@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RegimeStudent extends Student {
 	
-	private List<Subject> subList;
+	private List<Subject> subList; 
 	private List<Subject> completedSub;
 	
 	public RegimeStudent(String studentID, String studentName, String dateOfBirth, List<Subject> subList) {
@@ -47,6 +47,22 @@ public class RegimeStudent extends Student {
 	
 	public void setSubList(List<Subject> subList) {
 		this.subList = subList;
+	}
+	
+	@Override
+	public String getStudentID() {
+		return this.studentID;
+	}
+	
+	
+	@Override
+	public List<Subject> getSubList(){
+		return subList;
+	}
+	
+	@Override
+	public String getStudentName() {
+		return this.studentName;
 	}
 
 }

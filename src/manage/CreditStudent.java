@@ -38,5 +38,19 @@ public class CreditStudent extends Student {
 		// TODO Auto-generated method stub
 		return this.completedSub;
 	};
-
+	
+	@Override
+	public String getStudentID() {
+		return this.studentID;
+	}
+	
+	@Override
+	public List<Subject> getSubList(){
+		return subList;
+	}
+	
+	@Override
+	public String getStudentName() {
+		return this.studentName;
+	}
 }
