@@ -1,0 +1,195 @@
+Subject Code: CS101
+Subject Name: Introduction to Computer Science
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: None
+Suggested Semester: 1
+Suggested Academic Year: 1
+Responsible Department: Department of Computer Science
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Introduction to computer science and basic programming concepts using Python.
+
+Subject Code: CS102
+Subject Name: Data Structures
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: CS101
+Suggested Semester: 2
+Suggested Academic Year: 1
+Responsible Department: Department of Computer Science
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Study of data structures like arrays, linked lists, stacks, queues, trees, and graphs.
+
+Subject Code: CS201
+Subject Name: Discrete Mathematics
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: None
+Suggested Semester: 1
+Suggested Academic Year: 1
+Responsible Department: Department of Computer Science
+Midterm Weight: 50
+Final Exam Weight: 50
+Description: Mathematical foundations of computer science, including logic, sets, functions, relations, and combinatorics.
+
+Subject Code: CS202
+Subject Name: Algorithms
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: CS102
+Suggested Semester: 3
+Suggested Academic Year: 1
+Responsible Department: Department of Computer Science
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Design and analysis of algorithms, including sorting, searching, dynamic programming, and graph algorithms.
+
+Subject Code: CS303
+Subject Name: Computer Networks
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: CS102
+Suggested Semester: 4
+Suggested Academic Year: 2
+Responsible Department: Department of Computer Science
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Introduction to computer networks, including protocols, architecture, and security.
+
+Subject Code: EE101
+Subject Name: Circuit Theory
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: None
+Suggested Semester: 1
+Suggested Academic Year: 1
+Responsible Department: Department of Electrical Engineering
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Introduction to electrical circuits, Ohm's Law, Kirchhoff's laws, and circuit analysis.
+
+Subject Code: EE102
+Subject Name: Digital Logic Design
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: EE101
+Suggested Semester: 2
+Suggested Academic Year: 1
+Responsible Department: Department of Electrical Engineering
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Design and analysis of digital logic circuits, Boolean algebra, and combinational/sequential logic.
+
+Subject Code: EE201
+Subject Name: Electromagnetic Fields
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: EE101
+Suggested Semester: 3
+Suggested Academic Year: 2
+Responsible Department: Department of Electrical Engineering
+Midterm Weight: 50
+Final Exam Weight: 50
+Description: Study of electric and magnetic fields, Maxwell's equations, and their applications in electrical engineering.
+
+Subject Code: EE202
+Subject Name: Signals and Systems
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: EE101
+Suggested Semester: 3
+Suggested Academic Year: 2
+Responsible Department: Department of Electrical Engineering
+Midterm Weight: 50
+Final Exam Weight: 50
+Description: Analysis of continuous and discrete signals and systems, including Fourier transforms and Laplace transforms.
+
+Subject Code: EE301
+Subject Name: Control Systems
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: EE202
+Suggested Semester: 4
+Suggested Academic Year: 3
+Responsible Department: Department of Electrical Engineering
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Introduction to feedback control systems, transfer functions, and stability analysis.
+
+Subject Code: BUS101
+Subject Name: Introduction to Business
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: None
+Suggested Semester: 1
+Suggested Academic Year: 1
+Responsible Department: Department of Business Administration
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Fundamentals of business, including organization, management, and business ethics.
+
+Subject Code: BUS102
+Subject Name: Microeconomics
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: None
+Suggested Semester: 1
+Suggested Academic Year: 1
+Responsible Department: Department of Business Administration
+Midterm Weight: 50
+Final Exam Weight: 50
+Description: Study of microeconomic principles, supply and demand, market structures, and pricing strategies.
+
+Subject Code: BUS201
+Subject Name: Accounting Principles
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: BUS101
+Suggested Semester: 2
+Suggested Academic Year: 1
+Responsible Department: Department of Business Administration
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Introduction to accounting, financial statements, and basic accounting principles.
+
+Subject Code: BUS202
+Subject Name: Marketing
+Student Type: Undergraduate
+Credit Hours: 2
+Subject Type: Core
+Prerequisite Subjects: BUS101
+Suggested Semester: 2
+Suggested Academic Year: 1
+Responsible Department: Department of Business Administration
+Midterm Weight: 40
+Final Exam Weight: 60
+Description: Fundamentals of marketing, including product, price, place, and promotion strategies.
+
+Subject Code: BUS301
+Subject Name: Organizational Behavior
+Student Type: Undergraduate
+Credit Hours: 3
+Subject Type: Core
+Prerequisite Subjects: BUS101
+Suggested Semester: 3
+Suggested Academic Year: 2
+Responsible Department: Department of Business Administration
+Midterm Weight: 50
+Final Exam Weight: 50
+Description: Study of individual and group behavior in organizations, leadership, motivation, and decision-making.
+
