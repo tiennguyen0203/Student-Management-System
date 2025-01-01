@@ -7,12 +7,12 @@ public class CreditStudent extends Student {
 	private List<EnrolledCreditSubject> enrolledCreditSubjects;
 	
 	public CreditStudent(String userId, String email, String password, String fullName, String role, boolean status, String dob,
-			String studentId, String major, List<Subject> curriculum) {
-		super(userId, email, password, fullName, role, status, dob, studentId, major, curriculum);
+			String studentId, String major) {
+		super(userId, email, password, fullName, role, status, dob, studentId, major);
 		this.enrolledCreditSubjects = new ArrayList<EnrolledCreditSubject>();
 	}
 
-
+	
 
 	public String toString() {
 		int completedCredits = enrolledCreditSubjects.stream()

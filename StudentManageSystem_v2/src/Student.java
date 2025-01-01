@@ -15,11 +15,10 @@ public abstract class Student extends User {
 
 	
 	public Student(String userId, String email, String password, String fullName, String role, boolean status, String dob,
-			String studentId, String major, List<Subject> curriculum) {
+			String studentId, String major) {
 		super(userId, email, password, fullName, role, status, dob);
 		this.studentId = studentId;
 		this.major = major;
-		this.curriculum = curriculum;
 		this.completedSubjects = new ArrayList<Subject>();
 		this.schedules = new ArrayList<Schedule>();
 	}

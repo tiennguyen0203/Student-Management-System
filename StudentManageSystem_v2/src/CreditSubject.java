@@ -18,10 +18,16 @@ public class CreditSubject extends Subject {
 		this.finalExamWeight = finalExamWeight;
 	}
 
-
-
 	public String toString() {
-		return null;
+		return "CreditSubject{" +
+	            "subjectCode='" + subjectCode + '\'' +
+	            ", subjectName='" + subjectName + '\'' +
+	            ", creditHours=" + creditHours +
+	            ", subjectType='" + subjectType + '\'' +
+	            ", suggestSemester=" + suggestSemester +
+	            ", midtermWeight=" + midtermWeight +
+	            ", finalExamWeight=" + finalExamWeight +
+	            '}';
 	}
 	
 }

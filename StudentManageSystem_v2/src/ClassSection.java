@@ -3,19 +3,19 @@ import java.util.List;
 
 public class ClassSection {
 
-	private String classSectionId;
+	public String classSectionId;
 
-	private Subject subject;
+	public Subject subject;
 	
-	private String semeter;
+	public String semeter;
 
-	private String lecturer;
+	public String lecturer;
 
-	private int maxCapacity;
+	public int maxCapacity;
 
-	private List<Student> enrolledStudents;
+	public List<Student> enrolledStudents;
 
-	private List<Schedule> schedules;
+	public List<Schedule> schedules;
 
 	public ClassSection(String classSectionId, Subject subject, String semeter, String lecturer,
 			int maxCapacity, List<Schedule> schedules) {
@@ -58,93 +58,4 @@ public class ClassSection {
 	public String toString() {
 		return null;
 	}
-
-	
-	//Getter and Setter
-	public String getClassSectionId() {
-		return classSectionId;
-	}
-
-
-
-	public void setClassSectionId(String classSectionId) {
-		this.classSectionId = classSectionId;
-	}
-
-
-
-	public Subject getSubject() {
-		return subject;
-	}
-
-
-
-	public void setSubject(Subject subject) {
-		this.subject = subject;
-	}
-
-
-
-	public String getSemeter() {
-		return semeter;
-	}
-
-
-
-	public void setSemeter(String semeter) {
-		this.semeter = semeter;
-	}
-
-
-
-	public String getLecturer() {
-		return lecturer;
-	}
-
-
-
-	public void setLecturer(String lecturer) {
-		this.lecturer = lecturer;
-	}
-
-
-
-	public int getMaxCapacity() {
-		return maxCapacity;
-	}
-
-
-
-	public void setMaxCapacity(int maxCapacity) {
-		this.maxCapacity = maxCapacity;
-	}
-
-
-
-	public List<Student> getEnrolledStudents() {
-		return enrolledStudents;
-	}
-
-
-
-	public void setEnrolledStudents(List<Student> enrolledStudents) {
-		this.enrolledStudents = enrolledStudents;
-	}
-
-
-
-	public List<Schedule> getSchedules() {
-		return schedules;
-	}
-
-
-
-	public void setSchedules(List<Schedule> schedules) {
-		this.schedules = schedules;
-	}
-
-
-
-	
-
 }

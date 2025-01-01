@@ -10,7 +10,6 @@ public class Schedule {
 
 	
 	public Schedule(String dayOfWeek, String startTime, String endTime, String room) {
-		super();
 		this.dayOfWeek = dayOfWeek;
 		this.startTime = startTime;
 		this.endTime = endTime;
@@ -18,7 +17,12 @@ public class Schedule {
 	}
 
 	public String toString() {
-		return null;
+		return "Schedule{" +
+			      "dayOfWeek='" + dayOfWeek + '\'' +
+			      ", startTime='" + startTime + '\'' +
+			      ", endTime='" + endTime + '\'' +
+			      ", room='" + room + '\'' +
+			      '}';
 	}
 
 	public boolean isConflict() {

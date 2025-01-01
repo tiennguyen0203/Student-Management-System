@@ -7,8 +7,8 @@ public class YearBasedStudent extends Student {
 
 	
 	public YearBasedStudent(String userId, String email, String password, String fullName, String role, boolean status, String dob,
-			String studentId, String major, List<Subject> curriculum) {
-		super(userId, email, password, fullName, role, status, dob, studentId, major, curriculum);
+			String studentId, String major) {
+		super(userId, email, password, fullName, role, status, dob, studentId, major);
 		EnrolledFixedSubjects = new ArrayList<EnrolledFixedSubject>();
 	}
 
@@ -29,7 +29,7 @@ public class YearBasedStudent extends Student {
 	@Override
 	public double calculateCPA() {
 		// TODO Auto-generated method stub
-		
+		return 0;
 	}
 
 	@Override

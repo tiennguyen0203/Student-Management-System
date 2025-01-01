@@ -22,7 +22,7 @@ public class Lecturer extends User {
 	}
 
 	public void enterScore() {
-
+		
 	}
 
 	public void viewTeachingSchedule() {
